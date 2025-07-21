@@ -53,14 +53,22 @@ export function Header() {
         >
           Technologies
         </li>
-        {/* <li
+        <li
           className="hover:cursor-pointer hover:text-white duration-500 "
           onClick={() => {
             navigate("/experiencias");
           }}
         >
           Experience
-        </li> */}
+        </li> 
+        <li
+          className="hover:cursor-pointer hover:text-white duration-500 "
+          onClick={() => {
+            navigate("/certificados");
+          }}
+        >
+          Certificates
+        </li>
         <li
           className="hover:cursor-pointer hover:text-white duration-500 "
           onClick={() => {
